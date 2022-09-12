@@ -9,6 +9,7 @@ import socketServcies from './src/utils/socketService';
 import { clearAllItem, getItem } from './src/utils/utils';
 
 
+console.log("resvrvesv")
 
 // create a component
 const App = () => {
