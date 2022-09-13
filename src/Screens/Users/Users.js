@@ -1,4 +1,3 @@
-
 //import liraries
 import React, { useEffect, useCallback, useState } from 'react';
 import { View, Text, TouchableOpacity, FlatList } from 'react-native';
@@ -42,9 +41,8 @@ const Users = ({ navigation }) => {
     }
 
     const onPressItem = useCallback((item) => {
-
+        navigation.navigate(navigationStrings.MESSAGE, { data: item })
     }, [])
-
 
     const renderItem = useCallback(({ item, index }) => {
         return (
