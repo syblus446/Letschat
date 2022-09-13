@@ -19,13 +19,17 @@ export function otpVerify(data) {
                     resolve(res)
                 }).catch((error)=>{
                     resolve(error)
-                })                  
-                  return;
-                }
+                })
+                return;
+            }
             resolve(res)
         }).catch((error) => {
             reject(error)
         })
     })
+}
 
+export function fetchUsers(query = "") {
+    return apiGet(GET_USERS+ query)
+    // store.dispatch(saveUserData(data))
 }
