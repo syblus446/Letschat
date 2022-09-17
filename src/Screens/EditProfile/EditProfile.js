@@ -104,7 +104,8 @@ const EditProfile = ({ navigation, route }) => {
             <HorizontalLine />
             <TextInputComp
                 placeholder={strings.YOUR_NAME}
-                onChangeText={text => updateState({ name: text })}
+                onChangeText={text => updateState({ name: text })} 
+                placeholderTextColor="#808080"
 
             />
             <HorizontalLine />

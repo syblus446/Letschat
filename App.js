@@ -18,10 +18,11 @@ const App = () => {
   
   useEffect(()=>{
     (async()=>{
-      let userData = await getItem('userData')
-      if(!!userData){
-        store.dispatch(saveUserData(userData))
-      }
+     await clearAllItem()
+      // // let userData = await getItem('userData')
+      // // if(!!userData){
+      // //   store.dispatch(saveUserData(userData))
+      // }
     })();
     
   },[])

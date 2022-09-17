@@ -11,7 +11,8 @@ const styles = StyleSheet.create({
         fontFamily: fontFamily.regular,
         marginLeft: moderateScale(16),
         color: colors.grey,
-        textAlign:'center'
+        textAlign:'center',
+        marginRight: moderateScale(8),
     },
     bottomText: {
         fontSize: textScale(18),
@@ -25,7 +26,8 @@ const styles = StyleSheet.create({
         height: moderateScale(42),
         width:moderateScale(42),
         borderBottomWidth: 1,
-        textAlign: 'center'
+        textAlign: 'center',
+        color: 'black'
     }
     
 })

@@ -21,6 +21,8 @@ const styles = StyleSheet.create({
     commStyle: {
         fontSize: textScale(22),
         fontFamily:fontFamily.regular,
+        color: '#808080',
+        
     },
     headingSyle: {
         fontSize: textScale(26),

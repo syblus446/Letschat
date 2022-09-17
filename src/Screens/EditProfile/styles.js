@@ -14,9 +14,9 @@ const styles = StyleSheet.create({
     descStyle: {
         fontSize: textScale(12),
         fontFamily: fontFamily.blackFont,
-        flex: 1,
+        flex: 4,
         marginLeft: moderateScale(16),
-        color: colors.grey
+        color: colors.grey,   
     },
     
 })

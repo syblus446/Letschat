@@ -48,7 +48,7 @@ const Chats = ({navigation}) => {
                         {strings.TAP_ON} <Image source={imagePath.icEdit} /> <Text style={styles.commStyle}>{strings.IN_THE_TOP_RIGHT_}</Text>
                     </Text>
                 </View>
-                <Text style={{ ...styles.commStyle, color: colors.grey, marginTop: moderateScaleVertical(16) }}>{strings.YOU_CAN_CHAT_WITH_CONTACTS}</Text>
+                <Text style={{ ...styles.commStyle, color: colors.grey, marginTop: moderateScaleVertical(16)  }}>{strings.YOU_CAN_CHAT_WITH_CONTACTS}</Text>
             </View>
         )
     }, [data])

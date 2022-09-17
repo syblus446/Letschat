@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     logoStyle: {
-        width: width/1.5,
+        width: width/1.6,
         height: height/2,
         alignSelf:'center'
 
@@ -26,7 +26,8 @@ const styles = StyleSheet.create({
         fontSize: textScale(16),
         fontFamily: fontFamily.regular,
         textAlign: 'center',
-        marginTop: moderateScaleVertical(16)
+        marginTop: moderateScaleVertical(16),
+        color: '#808080'
     },
     agreeStyle: {
         fontSize: textScale(20),

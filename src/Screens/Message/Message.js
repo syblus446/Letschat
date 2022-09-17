@@ -94,7 +94,8 @@ const Message = ({ route, navigation }) => {
                         marignTop: moderateScaleVertical(6),
                         borderWidth: 0.8,
                         borderColor: colors.grey,
-                        paddingTop: moderateScaleVertical(8)
+                        paddingTop: moderateScaleVertical(8),
+                        color: '#808080'
                     }}
                     renderInputToolbar={props => {
                         return (
@@ -135,12 +136,14 @@ const styles = StyleSheet.create({
     nameView: {
         flexDirection: 'row',
         alignItems: 'center',
-        marginLeft: moderateScale(8)
+        marginLeft: moderateScale(8),
+        color: '#808080'
     },
     nameTextStyle: {
         fontFamily: fontFamily.regular,
         fontSize: textScale(16),
-        marginLeft: moderateScale(8)
+        marginLeft: moderateScale(8),
+        color: '#808080'
     }
 });
 

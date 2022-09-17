@@ -14,7 +14,7 @@ const TermsCondition = ({ navigation }) => {
     return (
         <WrapperContainer containerStyle={{ alignItems: 'center' }}>
             <Image resizeMode='contain' style={styles.logoStyle} source={imagePath.icLogo} />
-            <Text style={styles.headingStyle}>{strings.WELCOME_TO_LETSCHAT}</Text>
+            <Text style={styles.headingStyle}>{strings.WELCOME_TO_CHATBES}</Text>
             <Text style={styles.descStyle}>{strings.READ_OUR} <Text style={{ color: colors.lightBlue }}>{strings.PRIVACY_POLICY}</Text> {strings.TAP_AGREE_AND_CONTINUE_TO_CEEPT_THE} <Text style={{ color: colors.lightBlue }}>{strings.TERMS_OF_SERVICE}
             </Text></Text>
 

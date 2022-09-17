@@ -11,11 +11,12 @@ const styles = StyleSheet.create({
         fontFamily: fontFamily.regular,
         textAlign: 'center',
         margin: moderateScaleVertical(16),
-
+        color: '#808080'
     },
     dialCodeStyle: {
         fontSize: textScale(16),
         fontFamily: fontFamily.regular,
+        color: '#808080'
     },
     phoneInputStyle: {
         flexDirection: 'row', 
@@ -27,7 +28,8 @@ const styles = StyleSheet.create({
         padding:moderateScale(12),
         borderBottomColor: colors.grey,
         fontFamily:fontFamily.regular,
-        fontSize: textScale(16)
+        fontSize: textScale(16),
+        color: '#808080'
     }
     
 })

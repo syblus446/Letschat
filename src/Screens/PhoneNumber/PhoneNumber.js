@@ -82,6 +82,7 @@ const PhoneNumber = ({ navigation }) => {
                         placeholder='Enter your phone number'
                         keyboardType='phone-pad'
                         style={styles.inputStyle}
+                        placeholderTextColor="#808080"
                         onChangeText={text => updateState({phoneNumber: text})}
                     />
                 </View>
