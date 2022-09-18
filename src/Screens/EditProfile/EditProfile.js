@@ -102,6 +102,7 @@ const EditProfile = ({ navigation, route }) => {
             </View>
 
             <HorizontalLine />
+            <HorizontalLine />
             <TextInputComp
                 placeholder={strings.YOUR_NAME}
                 onChangeText={text => updateState({ name: text })} 

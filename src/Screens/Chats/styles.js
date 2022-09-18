@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
 
     },
     commStyle: {
-        fontSize: textScale(22),
+        fontSize: textScale(23),
         fontFamily:fontFamily.regular,
         color: '#808080',
         

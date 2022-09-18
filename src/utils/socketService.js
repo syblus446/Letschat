@@ -1,6 +1,7 @@
 import io from 'socket.io-client';
 
-const SOCKET_URL = 'http://192.168.16.134:3000'
+// const SOCKET_URL = 'http://192.168.16.134:3000'
+const SOCKET_URL = 'http://10.0.2.2:3000'
 
 class WSService {
 
